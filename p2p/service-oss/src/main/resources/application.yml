@@ -1,0 +1,18 @@
+server:
+  port: 8130
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: service-oss
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+aliyun:
+  oss:
+    endpoint: oss-cn-chengdu.aliyuncs.com
+    key-id: LTAI5tRdymMtgGYQZXXPSKXT
+    bucket-name: p2p-file-321
+    key-secret: 2RbX3HbXNXu3asK5QvkQEXtttIkMIv
